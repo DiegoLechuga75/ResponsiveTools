@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+.ViewportUp {
+    background-color: crimson;
+    width: 100vw;
+    height: 50vh;
+}
+
+.ViewportDown {
+    background-color: deepskyblue;
+    width: 100vw;
+    height: 50vh;
+}

@@ -1,0 +1,107 @@
+body{
+    font-family: 'Bacasime Antique', serif;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.Nav__Logo {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin: 0.8rem 0 0 0.8rem;
+}
+
+.Nav__Links {
+    display: flex;
+    align-items: center;
+    margin-right: 0.8rem;
+}
+
+.Nav__Link {
+    margin: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.Main {
+    display: flex;
+    margin-top: 0.8rem;
+}
+
+.Main__Image {
+    width: 50%;
+    height: auto;
+    margin-left: 0.8rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.Main__Container {
+    width: 50%;
+    height: auto;
+    margin-right: 0.8rem;
+    background-color: #fadf4c;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0.8rem;
+}
+
+.Main__Title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.Main__Text {
+    font-size: 1rem;
+    margin-left: 0.8rem;
+}
+
+.Items {
+    display: flex;
+    margin-top: 0.8rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Item__Container {
+    width: 15rem;
+    height: 16rem;
+    background-color: #fadf4c;
+    margin: 0.8rem;
+    border-radius: 5px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Item__Image {
+    width: 50%;
+    display: block;
+    margin: 0.8rem auto;
+}
+
+.Item__Text {
+    text-align: center;
+}
+
+.Item__Button {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5rem;
+    margin: 0.8rem auto;
+    display: block;
+}
+
+.Creditos {
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: lighter;
+}
+

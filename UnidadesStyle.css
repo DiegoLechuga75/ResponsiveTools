@@ -1,0 +1,56 @@
+.Titulo {
+    color: steelblue;
+    font-size: 5.5rem;
+}
+
+.Pixel {
+    font-size: 5px;
+}
+
+.Pica {
+    font-size: 5pc;
+}
+
+.CM {
+    font-size: 5cm;
+}
+
+.Rem {
+    font-size: 4rem;
+}
+
+.Em {
+    font-size: 5em;
+}
+
+.Porcentaje {
+    font-size: 100%;
+}
+
+.Caja {
+    background-color: turquoise;
+    font-size: 4px;
+    width: 400px;
+    height: 400px;
+}
+
+.Rem-Texto {
+    font-size: 5rem;
+}
+
+.Em-Texto {
+    font-size: 5em;
+}
+
+@media (max-width: 800px) {
+    .Titulo{
+        color: orangered;
+        font-size: 4rem;
+    }
+
+    .Caja {
+        background-color: cornflowerblue;
+        width: 200px;
+        height: 200px;
+    }
+}
